@@ -122,7 +122,7 @@ public class TechJobs {
         //    System.out.println(someJobs);
 
        if (someJobs.size() == 0) {
-           System.out.println("No Results");
+           System.out.print("No Results");
        } else {
 
            for (HashMap<String, String> listJobs: someJobs) {
